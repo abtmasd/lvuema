@@ -13,8 +13,7 @@ export default function Diary() {
           Today! I don't know why. <br />
           <br />
           I'm in your side and you're in mine. We're too closer than ever
-          before. Is this that we desire to live? The desire is always mean to
-          love in use. The desire is our love. The aimless life is the desire
+          before.  Is this where our desire lays to live belongs? The desire has always been meant by the love we feel as together. The desire is our love. The aimless life is the desire
           with living without the goal. When will the day come, we will die
           together in our love?
           <br />
