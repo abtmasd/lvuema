@@ -3,7 +3,7 @@ import './diary.css';
 
 export default function Diary() {
   const [showText, setShowText] = useState(false);
-  const onClick = () => setShowText(true);
+  const onClick = () => setShowText((showText) => !showText);
 
   const Text = () => (
     <div id="note">
@@ -13,9 +13,10 @@ export default function Diary() {
           Today! I don't know why. <br />
           <br />
           I'm in your side and you're in mine. We're too closer than ever
-          before.  Is this where our desire lays to live belongs? The desire has always been meant by the love we feel as together. The desire is our love. The aimless life is the desire
-          with living without the goal. When will the day come, we will die
-          together in our love?
+          before. Is this where our desire lays to live belongs? The desire has
+          always been meant by the love we feel as together. The desire is our
+          love. The aimless life is the desire with living without the goal.
+          When will the day come, we will die together in our love?
           <br />
           <strong> Ema </strong> <br />
           You are the beautiful, I am in love with. How can I compear a beauty,

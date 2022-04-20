@@ -69,14 +69,14 @@
   max-width: 659px;
 }
 
-.mynote:hover{
+.mynote:hover {
   border-radius: 20px;
   padding: 20px;
   color: rgba(18, 19, 16, 0.884);
   background-color: rgba(240, 248, 255, 0.493);
 }
 
-.mynote >h2:hover{
+.mynote > h2:hover {
   font-size: xx-large;
   font-weight: bolder;
   color: white;
