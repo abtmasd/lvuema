@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.header:hover {
+  background-color: rgba(111, 26, 247, 0.233);
+  color: white;
+}
+.header > h3:hover {
+  color: white;
+}
+
+.header {
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 5px 5px 21px 5px #1642a1;
+  flex-wrap: wrap;
+  margin: 5%;
+  color: rgba(102, 7, 7, 0.87);
+  background-color: rgba(168, 168, 131, 0.226);
+}
+.header > div {
+  font-weight: bolder;
+  border-radius: 7px;
+  flex: auto;
+  margin: 5%;
+  padding: 2%;
+  margin-bottom: 0;
+  text-align: center;
+  background-color: rgba(72, 158, 108, 0.164);
+  box-shadow: 5px 5px 21px 5px #182da0ce;
+}
+
+.header > h3 {
+  display: block;
+  font-weight: bold;
+  font-family: 'Inspiration', cursive;
+  font-size: xx-large;
+  padding: 2%;
+  flex: 100%;
+  text-align: center;
+  color: #fd00e8;
+  text-shadow: -2px 0px 35px rgb(1, 20, 6),
+    5px 5px 29px rgba(13, 1, 20, 0.979);
+}

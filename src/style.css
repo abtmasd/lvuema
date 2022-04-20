@@ -1,0 +1,20 @@
+#root {
+  background-image: url('https://i.pinimg.com/736x/71/e4/d1/71e4d1373590173034cabcb687ab965d.jpg');
+  background-size: contain;
+}
+h1,
+p {
+  font-family: Lato;
+}
+
+@media only screen and (max-width: 600px) {
+  #root {
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  #root {
+    background-size: contain;
+  }
+}
